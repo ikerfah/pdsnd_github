@@ -1,7 +1,11 @@
 
   
 
+  
+
 ### Date created
+
+  
 
   
 
@@ -11,7 +15,11 @@
 
   
 
+  
+
 ### Project Title
+
+  
 
   
 
@@ -21,7 +29,11 @@ Explore US Bikeshare Data
 
   
 
+  
+
 ### Description
+
+  
 
   
 
@@ -29,7 +41,11 @@ In this project, I learned how to use of Python to explore data related to bike 
 
   
 
+  
+
 - Chicago
+
+  
 
   
 
@@ -37,7 +53,11 @@ In this project, I learned how to use of Python to explore data related to bike 
 
   
 
+  
+
 - Washington.
+
+  
 
   
 
@@ -45,7 +65,11 @@ I Learned how to write code to import the data and answer interesting questions 
 
   
 
+  
+
 The user also can **filter** the data to get more accurate result by :
+
+  
 
   
 
@@ -53,7 +77,11 @@ The user also can **filter** the data to get more accurate result by :
 
   
 
+  
+
 - The month
+
+  
 
   
 
@@ -61,7 +89,11 @@ The user also can **filter** the data to get more accurate result by :
 
   
 
+  
+
 And at the end, The user can get the following informations :
+
+  
 
   
 
@@ -69,7 +101,11 @@ And at the end, The user can get the following informations :
 
   
 
+  
+
 - Most popular stations and trips
+
+  
 
   
 
@@ -77,9 +113,23 @@ And at the end, The user can get the following informations :
 
   
 
+  
+
 - bikeshare user information
 
   
+
+### What Software Do I Need?
+
+To complete this project, the following software requirements apply:
+
+  
+
+- You should have Python 3, NumPy, and pandas installed using Anaconda
+
+- A text editor, like Sublime or Atom.
+
+- A terminal application (Terminal on Mac and Linux or Cygwin on Windows).
 
   
 
@@ -87,7 +137,11 @@ And at the end, The user can get the following informations :
 
   
 
+  
+
 - bikeshare.py
+
+  
 
   
 
@@ -95,7 +149,11 @@ And at the end, The user can get the following informations :
 
   
 
+  
+
 - new_york_city.csv
+
+  
 
   
 
@@ -105,7 +163,11 @@ And at the end, The user can get the following informations :
 
   
 
+  
+
 ### Credits
+
+  
 
   
 
@@ -113,11 +175,17 @@ I would to say thanks for udacity team and the mentor for the efforts.
 
   
 
+  
+
 For the project, I referred to the following websites:
 
   
 
+  
+
 - https://docs.python.org/3/index.html
+
+  
 
   
 
