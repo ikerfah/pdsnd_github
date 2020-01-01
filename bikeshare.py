@@ -3,9 +3,7 @@ import time
 import pandas as pd
 import numpy as np
 
-CITY_DATA = { 'chicago': 'chicago.csv',
-              'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+
 
 # To keep . the same pattern as CITY_DATA
 MONTH_DATA = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
@@ -22,6 +20,9 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    CITY_DATA = { 'chicago': 'chicago.csv',
+              'new york city': 'new_york_city.csv',
+              'washington': 'washington.csv' }
     city_name = ''
     while city_name.lower() not in CITY_DATA:
         city_name = input("Please select a city [chicago, new york city, washington] : ")
@@ -233,8 +234,8 @@ def main():
             display_raw_data(df)
             break
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+        restart = input('\nWould you like to restart? [yes/no] [y/n]')
+        if restart.lower() != 'y' and restart.lower() != 'yes':
             break
 
 
